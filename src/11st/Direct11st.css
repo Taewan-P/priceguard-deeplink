@@ -1,0 +1,43 @@
+button:active {
+    transform: scale(0.95);
+    filter: none;
+}
+
+.appLogo {
+    height: auto;
+    width: 100%;
+    filter: drop-shadow(0.3rem 0.4rem 0.3rem rgba(0, 0, 0, 0.25));
+}
+
+.appLogoContainer {
+    width: 50vw;
+    height: 50vw;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.centerContainer {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.direct11stContainer {
+    max-width: 400px;
+    height: 100%;
+    margin: 2rem auto;
+}
+
+.linkButton {
+    padding: 1rem 2rem;
+    margin-top: 4rem;
+    min-width: 10rem;
+    width: fit-content;
+    height: 4rem;
+}
+
+.githubStarContainer {
+    margin: 1rem auto;
+}
