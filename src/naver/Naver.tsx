@@ -13,7 +13,7 @@ import {
 } from '../Common'
 import { StoreType } from '../data/StoreType'
 
-const Direct11st: React.FC = () => {
+const Naver: React.FC = () => {
   const { search } = useLocation()
 
   const values = queryString.parse(search)
@@ -26,10 +26,7 @@ const Direct11st: React.FC = () => {
           <DownloadButton />
         ) : (
           <DeepLinkButton
-            link={generateDeepLink(
-              StoreType.ElevenStreet,
-              values.code as string,
-            )}
+            link={generateDeepLink(StoreType.Naver, values.code as string)}
             supported={isAndroid}
           />
         )}
@@ -39,4 +36,4 @@ const Direct11st: React.FC = () => {
   )
 }
 
-export default Direct11st
+export default Naver
