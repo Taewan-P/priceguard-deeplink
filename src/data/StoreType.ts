@@ -1,4 +1,4 @@
 export enum StoreType {
-  ElevenStreet = '11st',
+  ElevenStreet = '11번가',
   Naver = 'SmartStore',
 }
