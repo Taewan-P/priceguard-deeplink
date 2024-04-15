@@ -5,7 +5,7 @@ import { StoreType } from './data/StoreType'
 
 const GITHUB_URL: string = 'https://github.com/boostcampwm2023/and09-PriceGuard'
 const FALLBACK_URL: string =
-  'https://appdistribution.firebase.dev/i/b299ae01bd67c829'
+  'https://play.google.com/store/apps/details?id=app.priceguard'
 
 export const generateDeepLink = (store: StoreType, code: string): URL => {
   if (code === undefined) {
